@@ -22,7 +22,7 @@ ssh your_identity_email_address_example.com@N.N.N.N
 
 ### What is an OS Login profile?
 
-OS Login profiles are made up of a username and a single well-known  and SSH key per user. Generally, this username will
+OS Login profiles are made up of a username and a single well-known SSH key per user. Generally, this username will
 take the form of the user's email with special characters replaced by underscores. So, `alice-doe@example.com` would
 become `alice_doe_example_com`. Organization admin can change this username; if that's the case, users can confirm their
 username with the `posixAccounts.username` field in `gcloud compute os-login describe-profile`.
